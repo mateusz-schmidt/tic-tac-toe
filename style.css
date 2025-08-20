@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: monospace;
 }
 
 .board {
@@ -31,8 +32,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 10rem;
   border: 1px solid var(--lighter-grey);
+  color: var(--lighter-grey);
+}
+
+.cell:hover {
+  cursor: pointer;
 }
 
 .cell:nth-child(-n + 3) {
